@@ -75,13 +75,13 @@ legend {
 
 }
 
-.sign-up-form>div {
-    width: 50;
+.sign-up-form>ul>li {
+    width: 100%;
 }
 
 #sign-up-form-left {
     position: relative;
-    width: 20vw;
+    width: 50%;
     top: 5vh;
     display: flex;
     flex-direction: column;
@@ -89,7 +89,7 @@ legend {
 }
 
 #sign-up-form-right {
-    width: 20vw;
+    width: 50%;
     top: 5vh;
     display: flex;
     flex-direction: column;
@@ -126,10 +126,12 @@ input {
     width: 100%;
     border-radius: 8px;
     opacity: .8;
+    font-size: 1.2rem;
+    padding-left: 1rem;
 }
 
 ul {
-    padding: 0 1rem 0 0;
+    padding: 0 1rem 0 1rem;
 }
 
 li {
